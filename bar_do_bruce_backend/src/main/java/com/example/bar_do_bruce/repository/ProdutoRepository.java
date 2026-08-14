@@ -9,4 +9,5 @@ import java.util.List;
 @Repository
 public interface ProdutoRepository extends JpaRepository<Produto, Long> {
     List<Produto> findByCategoriaIgnoreCase(String categoria);
+    // Aqui você pode adicionar outros métodos de consulta personalizados, se necessário
 }
