@@ -4,7 +4,7 @@ import jakarta.persistence.*;
 import java.math.BigDecimal;
 
 @Entity
-@Table(name = "produtos")
+@Table(name = "tab_produtos")
 public class Produto {
 
     @Id
